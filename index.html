@@ -28,7 +28,7 @@
             formData.append('file', file);
             formData.append('type', type);
 
-            fetch('https://qne9yq27rg.execute-api.ap-south-1.amazonaws.com/', {
+            fetch('arn:aws:execute-api:ap-south-1:905418375601:qne9yq27rg/*/POST/', {
                 method: 'POST',
                 body: formData
             })
